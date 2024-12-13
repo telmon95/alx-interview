@@ -40,3 +40,4 @@ def rm_multiples(ls, x):
             ls[i * x] = 0
         except (ValueError, IndexError):
             break
+            
